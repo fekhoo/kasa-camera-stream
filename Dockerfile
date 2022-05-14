@@ -5,7 +5,6 @@ ENV LANG C.UTF-8
 # Copy data for add-on
 COPY run.sh /
 COPY Controller /Controller
-COPY data /data
 RUN chmod a+x /run.sh
 
 # Install dependencies
