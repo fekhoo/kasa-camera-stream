@@ -10,7 +10,6 @@ class FfmpegWrapper:
         startCommand = [
             'ffmpeg',
             '-nostdin',
-            '-use_wallclock_as_timestamps 1',
             '-loglevel',
             'warning',
             '-reconnect',
